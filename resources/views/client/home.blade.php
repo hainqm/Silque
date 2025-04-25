@@ -20,7 +20,7 @@
                 <div class="swiper-slide">
                     <img src="{{ asset('storage/' . $banner->duong_dan_anh) }}"
                          alt="{{ $banner->title }}"
-                         style="width: 100%; height: 500px; object-fit: cover;">
+                         style="width: 100%; height: 310px; object-fit: cover;">
                 </div>
             @endforeach
         </div>

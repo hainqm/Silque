@@ -32,8 +32,9 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 //     });
 
 //client
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::middleware(['auth'])->group(function () {
-    Route::get('/home', [HomeController::class, 'index'])->name('home');
+
     Route::get('/list', [HomeController::class, 'list'])->name('list');
     Route::get('/product/{id}', [HomeController::class, 'detail'])->name('detail');
     Route::get('/post', [HomeController::class, 'list_post'])->name('post');
