@@ -71,10 +71,11 @@
                             <div class="card h-100 shadow-sm">
                                 <img src="{{ asset('storage/' . $product->anh) }}"
                                      class="card-img-top"
-                                     alt="{{ $product->name }}"
+                                     alt="{{ $product->ten_san_pham }}"
                                      style="height: 200px; object-fit: cover;">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{ $product->name }}</h5>
+                                    <h3 class="card-title">{{ $product->ten_san_pham }}</h3>
+
                                     <p class="card-text text-danger fw-bold">
                                         {{ number_format($product->gia, 0, ',', '.') }} đ
                                     </p>

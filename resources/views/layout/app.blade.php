@@ -13,7 +13,7 @@
     {{-- Header --}}
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}">🛒 ShopOnline</a>
+            <a class="navbar-brand" href="{{ route('home') }}">🛒 Silque</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -56,7 +56,7 @@
 
     {{-- Footer --}}
     <footer class="bg-dark text-white text-center py-3 mt-5">
-        &copy; {{ date('Y') }} ShopOnline. All rights reserved.
+        &copy; {{ date('Y') }} Silque. All rights reserved.
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
