@@ -50,8 +50,8 @@
             <label class="form-label">Trạng thái</label>
             <select name="trang_thai" id="" class="form-select">
                 <option value="" selected>--Trạng thái--</option>
-                <option value="0" {{ request('trang_thai') }} >Hiện</option>
-                <option value="1" {{ request('trang_thai') }} >Ẩn</option>
+                <option value="0" {{ request('trang_thai') }} >Ẩn</option>
+                <option value="1" {{ request('trang_thai') }} >Hiển thị</option>
             </select>
 
         </div>
@@ -66,7 +66,7 @@
         </div>
 
 
-        <button type="submit" class="btn btn-primary">Thêm banner</button>
+        <button type="submit" class="btn btn-primary">Update</button>
     </form>
 
 

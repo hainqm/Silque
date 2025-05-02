@@ -36,8 +36,8 @@
                         <label class="form-label">Trạng thái</label>
                         <select name="trang_thai" id="" class="form-select">
                             <option value="" selected>Trạng thái</option>
-                            <option value="0" {{ request('trang_thai') }} >Hiện </option>
-                            <option value="1" {{ request('trang_thai') }} >Ẩn</option>
+                            <option value="0" {{ request('trang_thai') }} >Ẩn </option>
+                            <option value="1" {{ request('trang_thai') }} >Hiển thị</option>
                         </select>
                     </div>
 
@@ -82,8 +82,8 @@
                 </td>
                 <td>{{ $banner->mo_ta }}</td>
                 <td>
-                    <span class="badge {{ $banner->trang_thai ? 'bg-secondary' : 'bg-primary' }}">
-                        {{ $banner->trang_thai ? 'Ẩn' : 'Hiện' }}
+                    <span class="badge {{ $banner->trang_thai ? 'bg-primary' : 'bg-secondary' }}">
+                        {{ $banner->trang_thai ? 'Hiện' : 'Ẩn' }}
                     </span>
                 </td>
                 <td>{{ $banner->ngay_nhap }}</td>
